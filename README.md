@@ -41,8 +41,19 @@ Requirements:
 Linux package dependencies:
 python2.7 python-gtk2 glade python-gtk-vnc python-glade2 python-configobj
 
-OpenXenManager runs has been tested to run on Linux or Windows and should work
-on MacOSX as well.
+OpenXenManager runs on Linux, Windows and MacOSX.
+
+
+Running on OSX
+==============
+
+1. Install [brew](http://brew.sh/)
+2. # brew install Caskroom/cask/xquartz
+3. # brew install pygtk
+4. # pip install configobj
+4. # git clone https://github.com/OpenXenManager/openxenmanager.git
+5. # cd openxenmanager
+6. # ./openxenmanager
 
 
 Help / bug reports
